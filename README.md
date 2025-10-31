@@ -1,4 +1,5 @@
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.com/deploy/apollo-router)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new?template=https://github.com/morriswchris/router-template
+)
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=github.com/apollographql/router-template)
 
 # Apollo Runtime Template
