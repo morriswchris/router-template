@@ -1,0 +1,26 @@
+# railway.toml
+
+[project]
+# Name of the project when deployed via Railway
+name = "apollo-router-template"
+
+[service]
+# Name of the service inside Railway
+name = "router"
+# The Dockerfile build context
+dockerfilePath = "Dockerfile"
+# Port your router listens on
+port = 4000
+
+[env]
+APOLLO_KEY = ""           # <<< Set this after launch
+APOLLO_GRAPH_REF = ""     # <<< Set this after launch
+
+[build]
+# Any build commands if needed; otherwise Railway will detect Dockerfile
+command = ""
+
+[deploy]
+# If you want automatic deploy on push
+auto = true
+branch = "main"
